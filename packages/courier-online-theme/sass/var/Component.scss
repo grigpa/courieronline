@@ -1,0 +1,8 @@
+$font-family: Tahoma, Geneva, sans-serif !default;
+$font-size: 13px; // потом происходит умножение на 0.9 и фактический размер становится 12px
+
+$field-shadow-color       : #E6E8EA;
+$field-background-color   : #F6F8FA;
+$field-right-border-radius: 0 5px 5px 0;
+$field-left-border-radius : 5px 0 0 5px;
+$include-default-uis: true;

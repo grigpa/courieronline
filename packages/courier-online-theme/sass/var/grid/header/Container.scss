@@ -1,0 +1,5 @@
+@function linear-gradient-grid-header($direction, $bg-color) {
+  @return linear-gradient($direction, color_stops(#F8F8FA, #EBEBEC));
+}
+$grid-header-border-width: 0px;
+$grid-body-border-width: 0px;

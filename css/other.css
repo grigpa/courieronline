@@ -1,0 +1,126 @@
+.workspaceCaption {
+    font-size: 16px;
+    color: #333333;
+    border: 1px #BBBBBB;
+    border-radius: 5px;
+    border-style: solid;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.Documents .x-grid-body .x-grid-row .x-grid-cell-inner {
+    min-height: 40px;
+}
+
+.appNotice {
+    overflow: hidden;
+    min-height: 150px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold-row td {
+    font-weight: bold !important;
+}
+
+.x-tree-view {
+    overflow-x: hidden;
+}
+
+.document-certificate-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.document-certificate-link:hover {
+    text-decoration: underline;
+}
+
+.size_caption {
+    color: #3e3e3e;
+}
+
+.labelAttach {
+    cursor: pointer;
+}
+
+.labelAttach:hover {
+    text-decoration: underline;
+}
+
+.icon-delete-white {
+    background-image: url(../resources/icons/icon_del.png);
+}
+
+.noImg {
+    background: transparent none !important;
+}
+
+.appNews {
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+    width: 200px;
+    line-height: 40px;
+}
+
+.appNews div {
+    height: 40px;
+    line-height: 40px;
+}
+
+.appNews:hover {
+    text-decoration: underline;
+}
+
+.appNewsSelected {
+    border: dashed #464646 1px;
+    border-radius: 5px;
+}
+
+.appNewsSelected div {
+    background-color: #ccc !important;
+}
+
+.selectLayoutNews {
+    cursor: pointer;
+}
+
+.appNoticeCorner {
+    position: absolute;
+    height: 23px;
+    width: 210px;
+    z-index: 9999;
+    background: url(../resources/icons/bottom-notice.png);
+
+}
+
+.docWorkflowList-body div {
+    overflow: hidden;
+}
+
+.x-mask-msg-docflow {
+    display: none;
+}
+
+.x-mask-docflow-base {
+    filter: alpha(opacity=1);
+    opacity: 1;
+    background: #fff;
+}
+
+.sendWinLabel {
+    background-image: url(../resources/icons/info.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    height: 44px !important;
+
+}
+.sendWinLabel .x-form-display-field {
+    line-height: 44px !important;
+    margin-left: 50px;
+}

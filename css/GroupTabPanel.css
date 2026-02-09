@@ -1,0 +1,190 @@
+.x-grouptabcontainer {
+    background-color: white;
+}
+
+.x-grouptabpanel .x-grouptab .x-grid-cell-inner {
+    font-family: tahoma, arial, sans-serif;
+    text-decoration: none !important;
+}
+
+.x-grouptabpanel .x-grouptab-first .x-grid-cell-inner {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.x-grouptabbar .x-grid-row .x-grid-cell {
+    background-color: transparent;
+    border: none;
+}
+
+.x-grouptabbar .x-grid-cell-inner {
+    padding: 10px !important;
+    height: 40px;
+}
+
+.x-grouptabbar .x-grouptab {
+    line-height: 24px;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+    padding-bottom: 10px;
+    overflow: visible; /* To allow round corner blobs (.x-grouptabs-corner) to occlude the element border */
+}
+
+.x-grouptabbar .x-grouptab-last {
+    margin-bottom: 3px;
+}
+
+.x-grouptabbar .x-over-tab .x-grid-cell-inner {
+    background-color: #E4F0F7;
+    margin-right: 20px;
+}
+
+.x-grouptabbar .x-active-tab .x-grid-cell-inner {
+    background-image: url("./../resources/icons/arrow-right-win.png");
+    background-position: right 3px;
+    background-repeat: no-repeat;
+    box-shadow: -17px 4px 4px #9a9a9a;
+    margin-right: 10px;
+}
+
+.x-grouptabbar .x-tree-elbow-line,
+.x-grouptabbar .x-tree-elbow-empty {
+    width: 0;
+}
+
+.x-grouptabbar .x-active-group .x-grouptab {
+    border: 0 none !important;
+}
+
+.x-grouptab-cell {
+    border: 0 none !important;
+}
+
+/* Tab corners */
+.x-grouptabbar .x-grouptabs-corner {
+    background-image: url('../img/x-grouptabs-corners.gif');
+    display: none;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    font-size: 1px;
+    line-height: 6px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.x-grouptabbar .x-grouptabs-corner {
+    display: none;
+}
+
+.x-grouptabbar .x-active-group .x-grouptab-first .x-grouptabs-corner-top-left,
+.x-grouptabbar .x-active-group .x-grouptab-last .x-grouptabs-corner-bottom-left {
+    display: block;
+}
+
+.x-grouptabbar .x-grouptabs-corner-top-left {
+    background-position: top left;
+    left: 0;
+    top: 0;
+}
+
+.x-grouptabbar .x-grouptabs-corner-bottom-left {
+    background-position: bottom left;
+    left: 0;
+    bottom: 0;
+}
+
+.x-grouptabbar .x-grouptabs-corner-top-right {
+    background-position: top right;
+    right: 0;
+    top: 0;
+}
+
+.x-grouptabbar .x-grouptabs-corner-bottom-right {
+    background-position: bottom right;
+    right: 0;
+    bottom: 0;
+}
+
+.x-grouptabbar .x-active-group .x-grouptabs-corner-bottom-left {
+    bottom: -4px;
+    left: -4px;
+}
+
+.x-grouptabbar .x-active-group .x-grouptabs-corner-bottom-right {
+    bottom: -4px;
+    right: -4px;
+}
+
+.x-grouptabbar .x-active-group .x-grouptabs-corner-top-left {
+    top: -4px;
+    left: -4px;
+}
+
+.x-grouptabbar .x-active-group .x-grouptabs-corner-top-right {
+    top: -4px;
+    right: -4px;
+}
+
+.x-grouptabbar .x-tree-panel .x-grid-cell {
+    overflow: visible;
+}
+
+.x-grouptabbar .x-panel-body {
+    background: transparent;
+}
+
+.b-profile-info .x-panel-body-default {
+    background: transparent;
+}
+
+.x-grouptabbar {
+    top: 0 !important;
+    margin-top: -1px !important;
+}
+
+.x-strict .x-ie7 .x-grouptabbar, .x-strict .x-ie6 .x-grouptabbar {
+    margin-top: -2px !important;
+}
+
+.x-grouptabbar .x-grouptab .x-tree-icon-parent {
+    display: none;
+}
+
+.x-grouptabbar .x-grouptab .x-tree-elbow,
+.x-grouptabbar .x-grouptab .x-tree-elbow-end {
+    display: none;
+}
+
+.x-grouptabbar .x-grouptab .x-tree-expander {
+    background: transparent url('../img/default/tree/elbow-plus-nl.gif') no-repeat;
+}
+
+.x-grouptabbar .x-grid-tree-node-expanded .x-grouptab .x-tree-expander {
+    background: transparent url('../img/default/tree/elbow-minus-nl.gif') no-repeat;
+}
+
+.x-grouptabbar .x-active-tab .x-grid-cell-inner:after {
+    /*
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: '';
+    border-style: solid;
+    border-color: #F7F8FA #F7F8FA #F7F8FA transparent;
+    border-width: 20px 10px;
+    */
+}
+
+.x-grouptabpanel .x-grid-body .x-grid-table {
+    border: none;
+}
+
+.x-grouptabpanel .x-form-text {
+    background: #F6F8FA;
+    border-radius: 4px;
+    border:none;
+    box-shadow: inset 0 1px 1px 1px #E6E8EA;
+}

@@ -1,0 +1,91 @@
+{
+
+    "Doc": [
+        {
+            "id":"7943287598-754832798-78979",
+            "text": "Документ о чем угодно",
+            "state": "active",
+            "motion": "send",
+            "author": "Григорьев Павел Александрович",
+            "organization": "ЗАО Комита",
+
+            "leaf": false,
+            "Doc": [
+                {
+                    "id":"7943287598-754832798-11111",
+                    "text": "Письмо от неизвестного",
+                    "state": "conditional",
+                    "motion": "prev",
+                    "author": "Алексеев Алексей Алексеевич",
+                    "organization": "ЗАО РЖД",
+                    "leaf": false,
+                    "Doc": [
+                        {
+                            "id":"7943287598-754832798-2222222",
+                            "text": "Свидетельство ни о чем",
+                            "state": "conditional",
+                            "motion": "next",
+                            "author": "Бендер Остап Ибрагимович",
+                            "organization": "Рога и копыта",
+                            "leaf": true,
+                            "Doc": []
+                        },
+                        {
+                            "id":"7943287598-754832798-33333",
+                            "text": "Уведомление о уведомлении",
+                            "state": "conditional",
+                            "motion": "next",
+                            "author": "Иванов Иван Иванович",
+                            "organization": "Неизвестно",
+                            "leaf": true,
+                            "Doc": []
+                        },
+                        {
+                            "id":"7943287598-754832798-44444",
+                            "text": "Заявление",
+                            "state": "conditional",
+                            "motion": "prev",
+                            "author": "Сергеев Сергей Сергеевич",
+                            "organization": "Управление чем-либо",
+                            "leaf": false,
+                            "Doc": [
+                                {
+                                    "id":"7943287598-754832798-55555",
+                                    "text": "Рапорт",
+                                    "state": "active",
+                                    "motion": "send",
+                                    "author": "Фамилия Имя Отчество",
+                                    "organization": "Просто название",
+                                    "leaf": true,
+                                    "Doc": []
+                                },
+                                {
+                                    "id":"7943287598-754832798-66666",
+                                    "text": "Отчет",
+                                    "state": "conditional",
+                                    "motion": "next",
+                                    "author": "Человек сДлиннойФамилией",
+                                    "organization": "заполним это поле",
+                                    "leaf": true,
+                                    "Doc": []
+                                }
+                            ]
+                        },
+                        {
+                            "id":"7943287598-754832798-77777",
+                            "text": "Письмо",
+                            "state": "conditional",
+                            "motion": "prev",
+                            "author": "ФИО",
+                            "organization": "Просто организация",
+                            "leaf": true,
+                            "Doc": []
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ]
+
+}

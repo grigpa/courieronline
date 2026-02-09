@@ -1,0 +1,40 @@
+.#{$prefix}form-field {
+  color: $form-field-color;
+}
+
+.#{$prefix}form-item,
+.#{$prefix}form-field {
+  font: $form-field-font;
+  @if $include-ext-toolbar-toolbar and $form-field-font != $form-toolbar-field-font {
+    .#{$prefix}toolbar-item & {
+      font: $form-toolbar-field-font;
+    }
+  }
+}
+
+.#{$prefix}form-type-text,
+.#{$prefix}form-type-password,
+.#{$prefix}form-type-number,
+.#{$prefix}form-type-email,
+.#{$prefix}form-type-search,
+.#{$prefix}form-type-tel {
+  textarea.#{$prefix}form-invalid-field, input.#{$prefix}form-invalid-field {
+    background-color: #FFFFFF;
+    background-image: none !important;
+    border-color: #CC3300;
+    color: #5a1500;
+    -webkit-box-shadow: 0 0 6px #CC3300;
+    -moz-box-shadow: 0 0 6px #CC3300;
+    box-shadow: 0 0 6px #CC3300;
+  }
+}
+
+@if $form-field-disabled-opacity != 1 {
+  .#{$prefix}item-disabled .#{$prefix}form-item-label,
+  .#{$prefix}item-disabled .#{$prefix}form-field,
+  .#{$prefix}item-disabled .#{$prefix}form-display-field,
+  .#{$prefix}item-disabled .#{$prefix}form-cb-label,
+  .#{$prefix}item-disabled .#{$prefix}form-trigger {
+    @include opacity($form-field-disabled-opacity);
+  }
+}

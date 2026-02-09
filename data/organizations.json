@@ -1,0 +1,62 @@
+[
+    {
+        "id"                  : "",
+        "orgName"             : "OOO Рога и копыта",
+        "inn"                 : "7854545454",
+        "kpp"                 : "7878545898",
+        "idStatDirection"     : "ККРР 453454",
+        "state"               : "Работает",
+        "keys"                : [
+            {
+                "owner"     : "111",
+                "start_date": "1 января",
+                "end_date"  : "4 марта",
+                "state"     : "Работает",
+                "use_crypt" : true
+            },
+            {
+                "owner"     : "2222",
+                "start_date": "1 января",
+                "end_date"  : "4 марта",
+                "state"     : "Не работает",
+                "use_crypt" : false
+            }
+        ],
+        "systemNames"         : [
+            {
+                "type"       : "MNS1",
+                "system_name": "1"
+            },
+            {
+                "type"       : "PFR1",
+                "system_name": "1"
+            },
+            {
+                "type"       : "STAT1",
+                "system_name": "1"
+            },
+            {
+                "type"       : "FSS1",
+                "system_name": "1"
+            }
+        ],
+        "available_directions": [
+            {
+                "type"       : "MNS2",
+                "system_name": "2"
+            },
+            {
+                "type"       : "PFR2",
+                "system_name": "2"
+            },
+            {
+                "type"       : "STAT2",
+                "system_name": "2"
+            },
+            {
+                "type"       : "FSS2",
+                "system_name": "2"
+            }
+        ]
+    }
+]

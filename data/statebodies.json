@@ -1,0 +1,26 @@
+[
+    {
+        "id"        : "",
+        "orgName"   : "ТОНН 78-00",
+        "systemName": "78-10",
+        "orgType"   : "STAT",
+        "transport" : "ККРР 453454",
+        "state"     : "Работает",
+        "keys"      : [
+            {
+                "owner"     : "111",
+                "start_date": "1 января",
+                "end_date"  : "4 марта",
+                "state"     : "Работает",
+                "use_crypt" : true
+            },
+            {
+                "owner"     : "2222",
+                "start_date": "1 января",
+                "end_date"  : "4 марта",
+                "state"     : "Не работает",
+                "use_crypt" : false
+            }
+        ]
+    }
+]

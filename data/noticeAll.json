@@ -1,0 +1,23 @@
+[
+    {
+        "id"     : "newdoc",
+        "cls"    : "icon-doc",
+        "items"  : [],
+        "counter": "",
+        "js"     : "newdoc",
+        "ids"    : "",
+        "name"   : "У вас новый документ",
+        "command": ""
+    }
+    ,
+    {
+        "id"     : "sendreceipt",
+        "cls"    : "icon-packet",
+        "items"  : [],
+        "counter": "",
+        "js"     : "sendreceipt",
+        "ids"    : "",
+        "name"   : "Необходима отправка<br>квитанций",
+        "command": ""
+    }
+]

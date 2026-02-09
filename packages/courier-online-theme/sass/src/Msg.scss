@@ -1,0 +1,29 @@
+#msg-div {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  width: 600px;
+  margin-left: -200px;
+  z-index: 20000;
+
+  .msg {
+    border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+
+    h3 {
+      margin: 0 0 8px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    p {
+      margin: 0;
+    }
+    .x-box-mc {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id"     : "operators",
+        "items"  : [],
+        "counter": "",
+        "js"     : "admin,operators",
+        "name"   : "Операторы",
+        "command": ""
+    },
+    {
+        "id"     : "inspections",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,superInspections",
+        "name"   : "Инспекции",
+        "command": ""
+    },
+    {
+        "id"     : "tasks",
+        "items"  : [],
+        "counter": "",
+        "js"     : "admin,tasks",
+        "name"   : "Автоматическая обработка",
+        "command": ""
+    },
+    {
+        "id"     : "templates",
+        "items"  : [],
+        "counter": "",
+        "js"     : "admin,templates",
+        "name"   : "Шаблоны",
+        "command": ""
+    }
+]

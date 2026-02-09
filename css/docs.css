@@ -1,0 +1,430 @@
+.docs-grid {
+    background: white;
+}
+
+.docs-grid .x-grid-row-alt .x-grid-td {
+    background-color: transparent !important;
+}
+
+.docs-grid .x-grid-with-row-lines .x-grid-td {
+    border-bottom-width: 0 !important;
+}
+
+.docs-grid .block {
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+    min-height: 105px;
+}
+
+.docs-grid .block .renderDocs {
+    padding: 7px;
+    margin: 5px 5px 5px 5px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.renderDocs a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #132c4a;
+    line-height: 1.5em;
+}
+
+.docs-grid .active .renderDocs {
+    background-color: #e6eefc;
+    border: 1px solid #909efc;
+}
+
+.docs-grid .conditional .renderDocs {
+    background-color: #ebebeb;
+    border: 1px solid #808080;
+}
+
+.docs-grid .block .renderDocs ul {
+    list-style: none;
+}
+
+.docs-grid .active {
+    background-color: #f4f5f7;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+}
+
+.docs-grid .shadow {
+    box-shadow: 2px 4px 10px -4px gray;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=6);
+
+}
+
+.docs-grid .conditional {
+    /*background-color: #f9fafc;*/
+    /*border-radius: 10px;*/
+    border-width: 1px;
+    border-color: #676767;
+    border-style: dashed;
+}
+
+.docs-grid .send {
+    background-image: url('../resources/icons/docs/send.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .prev {
+    background-image: url('../resources/icons/docs/prev.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .next {
+    background-image: url('../resources/icons/docs/next.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .outbox {
+    background-image: url('../resources/icons/docs/icon-yellow-arrow.png');
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .outbox-gray {
+    background-image: url('../resources/icons/docs/icon-arrow-up-gray.png');
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .inbox {
+    background-image: url('../resources/icons/docs/icon-blue-arrow.png');
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .inbox-gray {
+    background-image: url('../resources/icons/docs/icon-arrow-down-gray.png');
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.docs-grid .desc_block {
+    height: 18px;
+    line-height: 18px;
+    margin: 5px 0;
+}
+
+.docs-grid .time_doc, .time_doc-gray {
+    color: #434343;
+}
+
+.docs-grid .name_doc {
+    background-image: url('../resources/icons/docs/icon_docname.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.smallPrint {
+    background: url('../resources/icons/btn_print.png') no-repeat 3px 50%;
+    padding-left: 20px;
+}
+
+.smallExport {
+    background: url('../resources/icons/btn_export.png') no-repeat 3px 50%;
+    padding-left: 20px;
+}
+
+.smallChange {
+    background: url('../resources/icons/icon_edit.png') no-repeat 3px 50%;
+    padding-left: 20px;
+}
+
+.hideReceipts {
+    background: url('../resources/icons/arrow-blue-up.png') no-repeat 3px 50%;
+    padding-left: 20px;
+}
+
+.showReceipts {
+    background: url('../resources/icons/arrow-blue-down.png') no-repeat 3px 50%;
+    padding-left: 20px;
+}
+
+.statusDoc {
+    background: url('../resources/icons/icon_status_5.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.statusDocDecline {
+    background: url('../resources/icons/icon_status_3.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.document-status-sent-win {
+    background: url('../resources/icons/icon_status_1.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.document-status-rejected-win {
+    background: url('../resources/icons/icon_status_3.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.document-status-delivered-win {
+    background: url('../resources/icons/icon_status_6.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.document-status-accepted-win {
+    background: url('../resources/icons/icon_status_5.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.document-status-other-win {
+    background: url('../resources/icons/icon_status_4.png') no-repeat 3px 50%;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.docs-grid .name_doc-gray {
+    background-image: url('../resources/icons/docs/icon_docname-gray.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .org_doc {
+    background-image: url('../resources/icons/docs/icon-organization.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .org_doc-gray {
+    background-image: url('../resources/icons/docs/icon-organization-gray.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .cert_doc {
+    background-image: url('../resources/icons/cert_green.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .cert_doc-gray {
+    background-image: url('../resources/icons/docs/icon-certificate-gray.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .name_author {
+    background-image: url('../resources/icons/docs/docicon2.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .name_organization {
+    background-image: url('../resources/icons/docs/docicon3.png');
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.docs-grid .x-grid-row-focused .x-grid-td {
+    background-color: #fff;
+}
+
+.docs-grid .x-grid-row-over .x-grid-td {
+    background-color: #fff;
+}
+
+.attach-jpg {
+    background-image: url('../resources/icons/extensions/jpg.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-jpeg {
+    background-image: url('../resources/icons/extensions/jpg.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-pdf {
+    background-image: url('../resources/icons/extensions/pdf.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-png {
+    background-image: url('../resources/icons/extensions/png.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-gif {
+    background-image: url('../resources/icons/extensions/gif.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-doc {
+    background-image: url('../resources/icons/extensions/doc.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-docx {
+    background-image: url('../resources/icons/extensions/docx.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-xls {
+    background-image: url('../resources/icons/extensions/xls.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-xlsx {
+    background-image: url('../resources/icons/extensions/xlsx.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-bmp {
+    background-image: url('../resources/icons/extensions/bmp.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-tif {
+    background-image: url('../resources/icons/extensions/tif.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-zip {
+    background-image: url('../resources/icons/extensions/zip.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-rar {
+    background-image: url('../resources/icons/extensions/rar.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-7z {
+    background-image: url('../resources/icons/extensions/7z.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-rtf {
+    background-image: url('../resources/icons/extensions/rtf.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-tif {
+    background-image: url('../resources/icons/extensions/tif.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-tiff {
+    background-image: url('../resources/icons/extensions/tiff.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-txt {
+    background-image: url('../resources/icons/extensions/txt.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.attach-xml {
+    background-image: url('../resources/icons/extensions/xml.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 2px 0 2px 30px !important;
+}
+
+.documentAttachmentes .x-btn-default-small {
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+    border-radius: 0 !important;
+    border-style: none;
+    border-width: 0;
+}
+
+.documentAttachmentes .x-btn-default-small:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.captionForLink {
+    font-size: 13px;
+    color: #434343;
+    margin-left: 36px;
+    margin-bottom: 10px;
+}
+
+.document-letter-grid-subject {
+    font-size: 12px;
+    color: #434343;
+    margin-top: 3px;
+}
+
+.btnRelative {
+    position: relative;
+}
+
+.divShadow {
+    position: absolute;
+    top: 0;
+    left: 165px;
+    height: 20px;
+    width: 40px;
+    z-index: 999;
+    -webkit-box-shadow: inset -40px 0px 20px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset -40px 0px 20px 0px rgba(255, 255, 255, 1);
+    box-shadow: inset -40px 0px 20px 0px rgba(255, 255, 255, 1);
+}

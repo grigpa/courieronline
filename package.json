@@ -1,0 +1,20 @@
+{
+    "name": "courieronline-front",
+    "description": "ExtJs Application",
+    "author": "Vitaliy Medvedev <vitalym@comita.ru>",
+    "dependencies": {
+        "pkginfo": "0.3.x",
+        "request": "2.x.x",
+        "vows": "0.7.x",
+        "qs": "0.5.x",
+        "api-easy": "0.3.x",
+        "connect": "2.10.x"
+    },
+    "main": "node-server.js",
+    "scripts": {
+        "test": "vows tests/http/*"
+    },
+    "engines": {
+        "node": ">= 0.10.x"
+    }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id"     : "clients",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,clients",
+        "name"   : "Организации",
+        "command": ""
+    },
+    {
+        "id"     : "inspections",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,inspections",
+        "name"   : "Инспекции",
+        "command": ""
+    },
+    {
+        "id"     : "docflow",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,docflows",
+        "name"   : "Документообороты",
+        "command": ""
+    }
+]

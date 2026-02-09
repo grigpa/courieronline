@@ -1,0 +1,120 @@
+.x-panel-blue, .x-panel-login-form {
+  @include filter-gradient(#3699DB, #227CCC);
+  @include background-image(linear-gradient(top, color-stops(#3699DB, #227CCC)));
+}
+
+@include extjs-panel-ui(
+  $ui-label                 : 'blue',
+
+  $ui-border-width          : 0,
+  $ui-body-border-width     : 0,
+  $ui-wrap-border-width     : 0,
+  $ui-body-background-color : transparent,
+  $ui-body-color            : white
+);
+
+@include extjs-panel-ui(
+  $ui-label                 : 'white',
+
+  $ui-border-width          : 0,
+  $ui-border-radius         : 5px,
+  $ui-body-border-width     : 0,
+  $ui-wrap-border-width     : 0,
+  $ui-body-color            : black,
+  $ui-body-background-color : transparent
+);
+
+.x-panel-white, .x-nbr .x-panel-white {
+  background: white url(../resources/icons/icon_attention.png) no-repeat 10px center;
+}
+
+@include extjs-panel-ui(
+  $ui-label                 : 'login-form',
+
+  $ui-border-width          : 0,
+  $ui-body-border-width     : 0,
+  $ui-wrap-border-width     : 0,
+  $ui-border-radius         : 5px,
+  $ui-body-background-color : transparent,
+  $ui-body-color            : white
+);
+
+
+@include extjs-panel-ui(
+  $ui-label                     : 'background',
+  $ui-header-background-gradient: #3699DB
+);
+
+.page-background {
+  /* todo: вырезать градиент для бекграунда для ие */
+  @include background-image(linear-gradient(bottom, color-stops(white 95%, #E4E8F1)));
+}
+
+.login-page-background {
+  background: url(../resources/icons/login_background.png) no-repeat center center;
+}
+
+@include extjs-panel-ui(
+  $ui-label                   : 'shadow',
+  $ui-border-width            : 0,
+  $ui-body-border-width       : 0,
+  $ui-wrap-border-width       : 0,
+  $ui-body-background-color   : #F7F8FA
+);
+
+.x-panel-shadow {
+  box-shadow: 2px 4px 10px -4px gray;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=6);
+
+  .userInfo span, .certificatesInfo span {
+    text-decoration: none;
+  }
+
+  .userInfo span:hover, .certificatesInfo span:hover {
+    text-decoration: underline;
+  }
+
+  .userInfo div, .certificatesInfo div {
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+
+@include extjs-panel-ui(
+  $ui-padding                 : 10px 10px 10px 50px,
+  $ui-label                   : 'documentInbox',
+  $ui-body-border-width       : 0,
+  $ui-wrap-border-width       : 0,
+  $ui-body-background-color   : transparent
+);
+
+@include extjs-panel-ui(
+  $ui-padding                 : 10px 10px 10px 50px,
+  $ui-label                   : 'documentOutbox',
+  $ui-body-border-width       : 0,
+  $ui-wrap-border-width       : 0,
+  $ui-body-background-color   : transparent
+);
+
+.x-panel-documentOutbox {
+  @include filter-gradient(#E7F2F8, #CDE5F5);
+  @include background(url(../resources/icons/docs/icon-yellow-arrow20.png) no-repeat 10px 0px,
+      linear-gradient(top, color-stops(#E7F2F8, #CDE5F5)));
+  border-bottom: 1px solid #82C6F2;
+
+  box-shadow: 2px 4px 10px -4px gray;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=6);
+}
+
+.x-panel-documentInbox {
+  @include filter-gradient(#E7F2F8, #CDE5F5);
+  @include background(url(../resources/icons/docs/icon-blue-arrow20.png) no-repeat 10px 0px,
+    linear-gradient(top, color-stops(#E7F2F8, #CDE5F5)));
+  border-bottom: 1px solid #82C6F2;
+
+  box-shadow: 2px 4px 10px -4px gray;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=6);
+}

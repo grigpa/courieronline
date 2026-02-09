@@ -1,0 +1,53 @@
+{
+    "role": "operator",
+    "keys"           : [
+        {
+            "owner"     : "",
+            "start_date": "",
+            "end_date"  : "",
+            "state"     : "",
+            "use_crypt" : ""
+        },
+        {
+            "owner"     : "",
+            "start_date": "",
+            "end_date"  : "",
+            "state"     : "",
+            "use_crypt" : ""
+        },
+        {
+            "owner"     : "",
+            "start_date": "",
+            "end_date"  : "",
+            "state"     : "",
+            "use_crypt" : ""
+        },
+        {
+            "owner"     : "",
+            "start_date": "",
+            "end_date"  : "",
+            "state"     : "",
+            "use_crypt" : ""
+        }
+    ],
+    "togsList"       : [
+        {
+            "name" : "78-00",
+            "email": "togs78test@gks.nwudc.ru"
+        },
+        {
+            "name" : "47-00",
+            "email": "togs47test@gks.nwudc.ru"
+        },
+        {
+            "name" : "99-00",
+            "email": "togs99test@gks.nwudc.ru"
+        }
+    ],
+    "systemName"     : "1111",
+    "orgName"        : "2222",
+    "domain"         : "3333",
+    "globalTogsEmail": "4444",
+    "pop3Port"       : "5555",
+    "smtpPort"       : "6666"
+}

@@ -1,0 +1,174 @@
+@import 'TableMixin';
+
+.x-grid-td {
+  vertical-align: middle;
+}
+.x-grid-cell-inner-treecolumn {
+  vertical-align: middle;
+}
+.x-grid-row .x-grid-cell-inner {
+  white-space: normal;
+}
+.x-grid-row-over .x-grid-td {
+  cursor: pointer;
+}
+.x-column-header-text,
+.x-grid-row-checker {
+  margin: 0 auto;
+}
+
+.menu-navigator {
+
+  .x-grid-cell {
+    cursor: pointer;
+    height: 40px;
+    border-style: solid;
+    border-color: #ededed #c6c6c6 #ededed #c6c6c6;
+    background: #F8F8F8;
+  }
+
+  .x-grid-row-over .x-grid-cell,
+  .x-grid-row-selected .x-grid-cell {
+    background: #D0E0F0;
+  }
+
+  .x-grid-cell-last,
+  .x-grid-row-over .x-grid-cell-last,
+  .x-grid-row-selected .x-grid-cell-last  {
+    background: none;
+    border: none;
+  }
+  .x-grid-cell-last .x-grid-cell-inner  {
+    height: 40px;
+    width: 20px;
+    padding: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid transparent;
+  }
+  .x-grid-row-over .x-grid-cell-last .x-grid-cell-inner,
+  .x-grid-row-selected .x-grid-cell-last .x-grid-cell-inner {
+    border-left: 10px solid #D0E0F0;
+  }
+
+  .x-grid-with-row-lines .x-grid-cell {
+    border-bottom-width: 1px;
+  }
+
+  .x-tree-icon-parent {
+    background-image: none;
+  }
+  .x-tree-icon {
+    width: 0;
+    height: 0;
+  }
+
+  .notification-counter, .menu-item-name {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .menu-item-link, .menu-item-name {
+    text-overflow: ellipsis;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .menu-item-name.document-name {
+    padding: 2px 0 2px 30px;
+  }
+
+  .menu-item-link {
+    text-decoration: none;
+  }
+
+  .menu-item-link:hover {
+    text-decoration: underline;
+  }
+
+
+  .menu-item-name {
+    text-decoration: none;
+  }
+
+  .menu-item-name:hover {
+    text-decoration: underline;
+  }
+
+  .notification-counter {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../resources/icons/icon_red2_circle.png) no-repeat;
+
+    span {
+      left: -1px;
+      top: -2px;
+      padding-top: 3px;
+      position: relative;
+      vertical-align: middle;
+    }
+  }
+
+  .notification-counter-red {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../resources/icons/icon_red2_circle.png) no-repeat;
+
+    span {
+      vertical-align: middle;
+      padding-top:4px;
+
+    }
+  }
+
+
+  .notification-counter-red-long {
+    color: white;
+    width: 25px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../resources/icons/red_long_red_circle.png) no-repeat;
+
+    span {
+      vertical-align: middle;
+      padding-top:4px;
+    }
+  }
+
+  .notification-counter-green {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../resources/icons/icon_green_circle.png) no-repeat;
+
+    span {
+      vertical-align: middle;
+      padding-top:4px;
+    }
+  }
+
+
+  .notification-counter-green-long {
+    color: white;
+    width: 25px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../resources/icons/green_long_circle.png) no-repeat;
+    span {
+      vertical-align: middle;
+      padding-top:4px;
+    }
+  }
+}

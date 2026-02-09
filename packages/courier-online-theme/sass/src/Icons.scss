@@ -1,0 +1,81 @@
+@mixin document-status() {
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+$documentStatusCls: 'document-status';
+.#{$documentStatusCls}-sent {
+  background-image: url(../resources/icons/icon_status_1.png);
+  @include document-status;
+}
+.#{$documentStatusCls}-notspecified {
+  background-image: url(../resources/icons/icon_status_2.png);
+  @include document-status;
+}
+.#{$documentStatusCls}-rejected {
+  background-image: url(../resources/icons/icon_status_3.png);
+  @include document-status;
+}
+.icon-rejected {
+  background-image: url(../resources/icons/icon_status_3.png);
+}
+.#{$documentStatusCls}-accepted {
+  background-image: url(../resources/icons/icon_status_5.png);
+  @include document-status;
+}
+.icon-accepted {
+  background-image: url(../resources/icons/icon_status_5.png);
+}
+.#{$documentStatusCls}-delivered {
+  background-image: url(../resources/icons/icon_status_6.png);
+  @include document-status;
+}
+.#{$documentStatusCls}-other {
+  background-image: url(../resources/icons/icon_status_4.png);
+  @include document-status;
+}
+
+.icon-add   {
+  background-image: url(../resources/icons/icon_add.png);
+  background-size: auto 24px;
+}
+.icon-edit  {
+  background-size: auto 24px;
+  background-image: url(../resources/icons/icon_edit.png);
+}
+.icon-export { background-image: url(../resources/icons/btn_export.png); }
+.icon-copy   { background-image: url(../resources/icons/btn_copy.png); }
+.icon-remove { background-image: url(../resources/icons/btn_del.png); }
+.icon-print  { background-image: url(../resources/icons/btn_print.png); }
+.icon-doc    { background: url(../resources/icons/icon_doc.png) no-repeat; }
+.icon-packet { background: url(../resources/icons/icon_doc.png) no-repeat; }
+.exit-icon   { background: url(../resources/icons/icon_exit.png) no-repeat 35% 50%; }
+.b-logo      { background: url(../resources/icons/logo.png) no-repeat 0 50%; }
+.icon-send   {
+  background-image: url(../resources/icons/btn_send.png);
+  background-size: auto 24px;
+}
+
+.icon-minus {
+  background: url(../resources/icons/icon_minus.png) no-repeat 50% 100%;
+}
+
+.icon-plus {
+  background-image: url(../resources/icons/icon_plus.png);
+}
+
+.document-name {
+  background-image: url(../resources/icons/docs/icon_docname.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+.document-organization {
+  background-image: url(../resources/icons/docs/icon-organization.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.document-certificate {
+  background-image: url(../resources/icons/cert_green.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}

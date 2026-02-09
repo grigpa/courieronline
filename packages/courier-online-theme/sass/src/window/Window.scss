@@ -1,0 +1,5 @@
+.x-window .x-window-header {
+  @include filter-gradient(#FCFCFC, #ECF0F3);
+  @include single-box-shadow(#D3D4D6, 2px, 3px, 6px);
+  @include background-image(linear-gradient(top, color-stops(#FCFCFC, #ECF0F3)));
+}

@@ -1,0 +1,77 @@
+.x-form-trigger-wrap {
+  td:first-of-type {
+    border-radius: $field-left-border-radius;
+    overflow: hidden;
+  }
+  td:last-of-type {
+    border-radius: $field-right-border-radius;
+    padding-right: 3px;
+    width: 20px !important;
+  }
+  .x-form-text {
+    background: white;
+  }
+  .x-form-text, .x-form-trigger {
+    height: 27px;
+    border-width: 1px 0 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .x-pickerfield-open & td:first-of-type {
+    border-radius: 5px 0 0 0;
+  }
+  .x-pickerfield-open & td:last-of-type {
+    border-radius: 0 5px 0 0;
+  }
+
+  .x-form-date-trigger {
+    background-image: url(../resources/icons/icon-calendar.png);
+  }
+  .x-form-search-trigger {
+    background-image: url(../resources/icons/icon-search.png);
+  }
+  .x-form-arrow-trigger {
+    background-image: url(../resources/icons/icon_arrow_black.png);
+  }
+}
+
+.x-window {
+  .x-form-trigger-wrap {
+    td:first-of-type, td:last-of-type {
+      background: $field-background-color;
+    }
+    .x-form-text, .x-form-trigger {
+      border-width: 0;
+      border-color: $field-shadow-color;
+      background-color: $field-background-color;
+    }
+    .x-form-text {
+      border-radius: $field-left-border-radius;
+      @include inner-border(1px 0 0 1px, $field-shadow-color);
+    }
+    .x-form-trigger {
+      border-radius: $field-right-border-radius;
+      @include inner-border(1px 1px 0 0, $field-shadow-color);
+    }
+  }
+}
+
+.x-form-file-wrap {
+  .x-form-trigger-wrap {
+    td:last-of-type, td:first-of-type {
+      background: none;
+    }
+  }
+}
+
+// в ие8 имитируем тени границами
+.#{$prefix}ie8 {
+  .x-form-trigger-wrap {
+    .x-form-text {
+      border-width: 1px 0 0 1px;
+    }
+    .x-form-trigger {
+      border-width: 1px 1px 0 0;
+    }
+  }
+}

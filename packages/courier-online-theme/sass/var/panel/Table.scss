@@ -1,0 +1,13 @@
+$grid-row-cell-selected-background-color: #E8F2FE;
+$grid-row-cell-over-background-color: $grid-row-cell-selected-background-color;
+
+$grid-cell-special-background-color: white;
+$grid-cell-special-background-gradient: null;
+
+$grid-row-cell-border-style: none;
+$grid-row-cell-alt-background-color: #F9FAFC;
+
+$grid-row-cell-border-width: 0;
+$grid-row-cell-focus-border-width: $grid-row-cell-border-width;
+$grid-row-cell-over-border-width: $grid-row-cell-border-width;
+$grid-row-cell-selected-border-width: $grid-row-cell-border-width;

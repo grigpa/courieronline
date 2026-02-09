@@ -1,0 +1,94 @@
+.menu-notice .x-tree-icon-parent {
+    background-image: none;
+}
+.menu-notice .x-tree-icon {
+    width: 0;
+    height: 0;
+}
+.menu-notice .x-grid-cell {
+    cursor: pointer;
+    height: 40px;
+    border-style: solid;
+    border-color: #ededed #c6c6c6 #ededed #c6c6c6;
+    background: #F8F8F8;
+}
+.menu-notice .x-grid-with-row-lines {
+    border: none;
+}
+
+.menu-notice .x-grid-row-selected .x-grid-cell {
+    /*background: #D0E0F0;*/
+}
+.menu-notice .x-grid-cell-last, .menu-notice .x-grid-row-selected .x-grid-cell-last  {
+    background: none;
+    border: none;
+}
+.menu-notice .x-grid-cell-last .x-grid-cell-inner  {
+    height: 40px;
+    width: 20px;
+    padding: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid transparent;
+}
+.menu-notice .x-grid-row-selected .x-grid-cell-last .x-grid-cell-inner {
+    /*border-left: 10px solid #D0E0F0;*/
+}
+
+.menu-notice .x-tree-node-text {
+    text-decoration: underline;
+}
+
+.menu-notice .notification-counter {
+    width: 20px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background: url("../resources/icons/icon_red2_circle.png") no-repeat scroll 0 10px rgba(0, 0, 0, 0);
+    position: relative;
+    top:-25px;
+    left: 5px;
+}
+
+.menu-notice .menu-item-name {
+text-decoration: none;
+}
+
+.menu-notice .menu-item-name:hover {
+    text-decoration: underline;
+}
+
+.menu-notice .notification-counter,
+.menu-notice .menu-item-name {
+    /*display: inline-block;*/
+    vertical-align: bottom;
+}
+
+.menu-notice .notification-counter span {
+    left: -1px;
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+}
+
+.menu-notice .x-grid-with-row-lines .x-grid-td {
+    border-bottom-width: 1px;
+    border-bottom-color: #F8F8F8;
+}
+
+.menu-notice .x-grid-row .x-grid-cell-inner {
+    white-space: nowrap;
+    height: 50px;
+    line-height: 50px;
+}
+
+.menu-notice .x-grid-row .x-grid-cell-first {
+    padding-left: 10px;
+}
+
+.notice-icon{
+    width:20px;
+    height: 20px;
+    position: relative;
+    top: 12px;
+}

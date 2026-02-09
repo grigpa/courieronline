@@ -1,0 +1,93 @@
+{
+    "total": 150, "items": [
+    {
+        "id"       : "f2b10816-4d93-4851-b62f-7876c9517846",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 107",
+        "state"    : "создан",
+        "routeId"  : "52d6df6f-f113-46bf-8671-baf020057cd3",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "dafa5e2b-4033-40c5-ae0f-6fac7a52c2e7",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 108",
+        "state"    : "создан",
+        "routeId"  : "b59bd7d6-4dfb-4c3a-ab85-98f10e2aa45d",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "9793696e-6cac-467a-9331-899770fb2e0b",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 109",
+        "state"    : "создан",
+        "routeId"  : "c8b751c3-3548-4a7c-a2d8-77d805c09aa0",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "854bbd87-e41f-413a-b5ed-d41adfd5e2a8",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 11",
+        "state"    : "создан",
+        "routeId"  : "06369c4c-df78-452e-ac38-913314679af6",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "ce108b58-5534-4a82-bcf3-c04fa7963158",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 110",
+        "state"    : "создан",
+        "routeId"  : "eb513fb9-1f3d-41e3-a8ba-9b4d10b82ef1",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "18875492-4535-4bb1-ad41-cf2efe51b6cd",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 111",
+        "state"    : "создан",
+        "routeId"  : "0355571e-a70d-465b-b3ae-8763534b349b",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "8590dc07-e3ad-4b26-9847-4fe6090f1e12",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 112",
+        "state"    : "создан",
+        "routeId"  : "d30a4230-32fc-489d-8240-8ca7d639c77d",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "588a1a23-0860-4d5e-9905-2ae531eb7d80",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 113",
+        "state"    : "создан",
+        "routeId"  : "29f2b091-c3e9-47e3-9790-e1e41d6a5b05",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "2e1d035c-db22-4287-9d25-ec357439efb2",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 114",
+        "state"    : "создан",
+        "routeId"  : "7fd34872-fbf1-4516-8503-a9a7524d657a",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    },
+    {
+        "id"       : "c9483b6e-3d3f-47b4-802d-61079d21094f",
+        "details"  : "IV квартал 2012г",
+        "name"     : "Отчетность в Росстат 115",
+        "state"    : "создан",
+        "routeId"  : "3ff4180f-a2bd-4da9-b617-3aeb99ae2b52",
+        "type"     : "STAT_DOCROUTE_REPORT",
+        "recipient": "Оператор"
+    }
+]}

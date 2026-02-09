@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project default="test" basedir=".">
+
+    <target name="clean">
+        <delete file="out.txt" verbose="true"/>
+        <delete dir="reports" verbose="true"/>
+        <mkdir dir="reports"/>
+    </target>
+
+    <target name="run-server">
+        <echo>Start jstestdriver...</echo>
+
+        <exec executable="java" dir="${basedir}" spawn="true">
+            <env key="BUILD_ID" value="dontKillMe" />
+            <arg value="-jar"/>
+            <arg value="target\dependency\jstestdriver-1.3.5.jar"/>
+            <arg value="--port=6788"/>
+            <arg value="--basePath=${basedir}"/>
+            <arg value="--verbose"/>
+            <arg value="--captureConsole"/>
+        </exec>
+        <sleep seconds="5"/>
+    </target>
+
+    <target name="stop-phantom">
+        <echo>Stop phantom...</echo>
+
+        <exec executable="taskkill" dir="${basedir}">
+            <arg value="/F"/>
+            <arg value="/IM"/>
+            <arg value="phantomjs.exe"/>
+        </exec>
+        <sleep seconds="3"/>
+    </target>
+
+    <target name="run-phantom" depends="stop-phantom">
+        <echo>Run phantom...</echo>
+
+        <exec executable="target\phantomjs\phantomjs.exe" dir="${basedir}" spawn="true">
+            <arg value="tests\jstestdriver\phantom-jstd.js"/>
+        </exec>
+        <sleep seconds="5"/>
+    </target>
+
+    <target name="run-tests" depends="run-phantom">
+        <echo>Run tests...</echo>
+
+        <!-- Run jstestdriver client twice because the first execution may fail -->
+        <exec executable="java" dir="${basedir}" output="out.txt">
+            <arg value="-jar"/>
+            <arg value="target\dependency\jstestdriver-1.3.5.jar"/>
+            <arg value="--config=jsTestDriver.conf"/>
+            <arg value="--server=http://127.0.0.1:6788"/>
+            <arg value="--basePath=."/>
+            <arg value="--runnerMode=DEBUG"/>
+            <arg value="--tests=all"/>
+        </exec>
+
+        <exec executable="java" dir="${basedir}" failonerror="true">
+            <arg value="-jar"/>
+            <arg value="target\dependency\jstestdriver-1.3.5.jar"/>
+            <arg value="--config=jsTestDriver.conf"/>
+            <arg value="--basePath=."/>
+            <arg value="--server=http://127.0.0.1:6788"/>
+            <arg value="--testOutput=reports"/>
+            <arg value="--tests=all"/>
+            <arg value="--verbose"/>
+        </exec>
+
+        <echo>Stop phantom...</echo>
+
+        <exec executable="taskkill" dir="${basedir}">
+            <arg value="/F"/>
+            <arg value="/IM"/>
+            <arg value="phantomjs.exe"/>
+        </exec>
+        <sleep seconds="3"/>
+
+    </target>
+
+    <target name="test" description="Test" depends="clean, run-server, run-tests">
+    </target>
+
+</project>

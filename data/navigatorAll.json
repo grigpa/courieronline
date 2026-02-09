@@ -1,0 +1,47 @@
+[
+    {
+        "id"     : "input",
+        "cls"    : "icons-gtn-student",
+        "items"  : [],
+        "counter": "",
+        "js"     : "status,inbox",
+        "name"   : "Входящие",
+        "command": ""
+    },
+    {
+        "id"     : "output",
+        "cls"    : "icons-gtn-group",
+        "items"  : [],
+        "counter": "",
+        "js"     : "status,outbox",
+        "name"   : "Отправленные",
+        "command": ""
+    },
+    {
+        "id"     : "drafts",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "status,draft",
+        "name"   : "Черновики",
+        "command": ""
+    },
+    {
+        "id"     : "clients",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,clients",
+        "name"   : "Организации",
+        "command": ""
+    },
+    {
+        "id"     : "inspections",
+        "cls"    : "icons-gtn-request",
+        "items"  : [],
+        "counter": "",
+        "js"     : "operator,inspections",
+        "name"   : "Гос. органы",
+        "command": ""
+    }
+]
